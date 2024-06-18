@@ -1,8 +1,7 @@
 # NodeReborn_v1.0.0
 
 ## Introduction
-This is a python code to use in Houdini.
-Some Houdini users have got used to with some nodes that are not currently available or have a preference with and old node.
+This is a python code to use in Houdini, some Houdini users have got used to with some nodes that are not currently available or have a preference with and old node. 
 Old houdini's nodes are insight the software they are blocked 
 
 ![icon](https://github.com/DanteVFX/Houdini-NodeReborn/assets/156336362/7389762c-03af-4b82-976f-a22b46d73e79)
