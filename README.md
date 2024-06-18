@@ -10,7 +10,7 @@ Old houdini's nodes are insight the software they are blocked
 the name is based on one of the most famous card of Yu-Gi-Oh!
 
 ## How to install in Houdini: 
-1. Copy the code.
+1. Copy the code of NodeRebornTool.py
 2. Create a new Tool in the shelf Bar.
 3. Paste the code into the Script tab.
 
