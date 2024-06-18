@@ -175,7 +175,8 @@ class nodeReborn(QtWidgets.QWidget):
         selected_items = self.list_widget.selectedItems()
         if selected_items:
             selected_node_name = selected_items[0].text()
-            hscript_command = f'opunhide {selected_node_name}' 
+            hscript_command = f'opunhide {selected_node_name}'
+            hou.hscript(hscript_command) 
 
     def openLink(self, url):
         #this method open the Github link in the default browser
@@ -199,6 +200,6 @@ class CommandRunner(QtCore.QThread):
         stderr_decoded = stderr.decode()
         self.result_ready.emit(stdout_decoded, stderr_decoded)
 
-# Instancia functionButtons en lugar de nodeReborn
+
 ui = nodeReborn()
 ui.show()
