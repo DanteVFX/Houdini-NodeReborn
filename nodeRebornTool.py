@@ -58,7 +58,7 @@ class nodeReborn(QtWidgets.QWidget):
         self.lyt.addWidget(self.field)
 
         # Create the reborn button
-        self.reborn_button = QtWidgets.QPushButton("REBORN THE NODE!!")
+        self.reborn_button = QtWidgets.QPushButton("COME BACK TO LIFE!!")
         self.reborn_button.setEnabled(False)
         self.reborn_button.clicked.connect(self.reborn_selected_node)  
         self.lyt.addWidget(self.reborn_button)
